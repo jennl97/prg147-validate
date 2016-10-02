@@ -1,0 +1,51 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Contact Form</title>
+<link rel="stylesheet" href="form_style.css">
+
+</head>
+<body>
+    <header class="body">
+    <h1>Jenn's Form</h1>
+    </header>
+    
+    <section class="body">
+        <form action="#" method="get">
+            <fieldset>
+                <legend>Donate Today!</legend>
+                
+            <p><label class="field">First Name:</label> <input title="first" type="text" name="Name" id="first" class="textbox-300" onblur="checkFirst()"/></p>
+
+                <p><label class="field">Last Name:</label> <input type="text" name="Name" id="last" class="textbox-300" onblur="checkLast()"/></p>
+
+            <p><label class="field">Address:</label><input type="text" name="Address" id="address" class="textbox-300" onblur="checkAddress()"/></p>
+                
+            <p><label class="field">City:</label> <input type="text" name="City" id="city" class="textbox-300" onblur="checkCity()"/></p>
+
+            <p><label class="field">State:</label><input type="text" name="State" id="state" class="textbox-300" onblur="checkState()"/></p>
+                
+            <p><label class="field">Zip:</label> <input type="text" name="Zip" id="zip" class="textbox-300" onblur="checkZip()"/></p>
+                
+            <p><label class="field">Phone:</label><input type="text" name="Phone" id="phone" class="textbox-300" onblur="checkPhone()"/></p>
+
+                <p><label class="field">Cell:</label><input type="text" name="Phone" id="cell" class="textbox-300" onblur="checkCell()"/></p>
+
+            <p><label class="field">Email:</label><input type="email" name="Email" id="email" class="textbox-300" onblur="checkEmail()"/></p>
+
+                <p><button class="button" type="reset">Reset</button></p>
+                
+        </fieldset>
+        </form>
+        </section>
+
+    <div class="error">
+        <p id="errorMsg">&nbsp;</p>
+
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+    
+</html>
